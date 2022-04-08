@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Nhom5_CNPMNCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Nhom5_CNPMNCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="MOCK_DATA" EntityType="Nhom5_CNPMNCModel.MOCK_DATA" />
+  </EntityContainer>
+  <EntityType Name="MOCK_DATA">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="TenSP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IMG_PATH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GIA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

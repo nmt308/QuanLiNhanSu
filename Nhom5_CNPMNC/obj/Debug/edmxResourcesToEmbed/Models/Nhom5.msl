@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Nhom5_CNPMNCModelStoreContainer" CdmEntityContainer="Nhom5_CNPMNCEntities">
+    <EntitySetMapping Name="MOCK_DATA">
+      <EntityTypeMapping TypeName="Nhom5_CNPMNCModel.MOCK_DATA">
+        <MappingFragment StoreEntitySet="MOCK_DATA">
+          <ScalarProperty Name="GIA" ColumnName="GIA" />
+          <ScalarProperty Name="IMG_PATH" ColumnName="IMG_PATH" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
